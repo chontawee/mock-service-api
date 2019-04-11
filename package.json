@@ -12,8 +12,7 @@
     "url": "git+https://github.com/chontawee/mock-api-server.git"
   },
   "devDependencies": {
-    "body-parser": "^1.18.3",
-    "lodash": "^4.17.11"
+    "body-parser": "^1.18.3"
   },
   "dependencies": {
     "express": "^4.16.4",
