@@ -1,7 +1,7 @@
 # Mock Service API
 ## Install
 ```
-npm install mock-api-server
+npm install mock-service-api
 ```
 ## How to Use
 Import `mock-api-server` and start project
