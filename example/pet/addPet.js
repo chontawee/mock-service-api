@@ -6,7 +6,7 @@ const mockPath = {
 }
 
 const mockRequest = {
-  query: [],  // ?query=xxxx
+  query: [],
   params: [],
   body: [
     {
@@ -31,7 +31,7 @@ const mockRequest = {
       desc: "Enter date",
       example: "2019-01-01"
     }
-  ]  // pass parameters into body request
+  ]
 }
 
 const mockResponse = {

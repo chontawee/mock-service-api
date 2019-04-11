@@ -6,8 +6,8 @@ const mockPath = {
 }
 
 const mockRequest = {
-  query: [],  // ?query=xxxx
-  params: [ // /test/{param}
+  query: [],
+  params: [
     {
       name: "param1",
       type: "string",
@@ -16,7 +16,7 @@ const mockRequest = {
       example: "test parameter"
     }
   ],
-  body: []  // pass parameters into body request
+  body: []
 }
 
 const mockResponse = {

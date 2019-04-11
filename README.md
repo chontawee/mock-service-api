@@ -1,4 +1,4 @@
-# Mock API Server
+# Mock Service API
 ## Install
 ```
 npm install mock-api-server
@@ -9,7 +9,7 @@ Import `mock-api-server` and start project
 const mockApiServer = require('mock-api-server')
 const path = require('path')
 const configPath = path.join(__dirname, 'example')
-server.start(configPath)
+mockApiServer.start(configPath)
 ```
 ## Add New Route
 1. Create folder which you want to store your all route config. (ex. `/rest`)
