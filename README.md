@@ -4,9 +4,9 @@
 npm install mock-service-api
 ```
 ## How to Use
-Import `mock-api-server` and start project
+Import `mock-service-api` and start project
 ```
-const mockApiServer = require('mock-api-server')
+const mockApiServer = require('mock-service-api')
 const path = require('path')
 const configPath = path.join(__dirname, 'example')
 mockApiServer.start(configPath)

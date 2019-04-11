@@ -1,12 +1,16 @@
 {
   "name": "mock-service-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
   },
   "author": "Chontawee Wongpromrat",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chontawee/mock-api-server.git"
+  },
   "devDependencies": {
     "body-parser": "^1.18.3",
     "lodash": "^4.17.11"
