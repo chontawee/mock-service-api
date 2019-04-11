@@ -1,7 +1,7 @@
 const faker = require('faker')
 
 const mockPath = {
-  path: ":param1",
+  path: "/:param1",
   method: "GET"
 }
 
