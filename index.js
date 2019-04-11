@@ -16,16 +16,16 @@ const start = (rootDirPath, port=3000) => {
       const { mockPath, mockRequest, mockResponse } = require(`${rootDirPath}/${dir}/${file}`)
       switch(mockPath.method) {
         case "GET":
-          app.get(`/${dir}/${mockPath.path}`, (req, res) => helper.restCallback(req, res, mockRequest, mockResponse))
+          app.get(`/${dir}/${mockPath.path}`, (req, res) => helper.apiCallback(req, res, mockRequest, mockResponse))
           break
         case "POST":
-          app.post(`/${dir}/${mockPath.path}`, (req, res) => helper.restCallback(req, res, mockRequest, mockResponse))
+          app.post(`/${dir}/${mockPath.path}`, (req, res) => helper.apiCallback(req, res, mockRequest, mockResponse))
           break
         case "PUT":
-          app.put(`/${dir}/${mockPath.path}`, (req, res) => helper.restCallback(req, res, mockRequest, mockResponse))
+          app.put(`/${dir}/${mockPath.path}`, (req, res) => helper.apiCallback(req, res, mockRequest, mockResponse))
           break
         case "DELETE":
-          app.delete(`/${dir}/${mockPath.path}`, (req, res) => helper.restCallback(req, res, mockRequest, mockResponse))
+          app.delete(`/${dir}/${mockPath.path}`, (req, res) => helper.apiCallback(req, res, mockRequest, mockResponse))
           break
         default:
           break
