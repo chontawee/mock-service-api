@@ -31,22 +31,27 @@ const validate = (req, mockReq) => {
   return validateRes
 }
 
-const restCallback = (req, res, mockReq, mockRes) => {
+const apiCallback = (req, res, mockReq, mockRes) => {
   if (validate(req, mockReq)) {
     res.status(mockRes.status)
     res.set(mockRes.headers)
     res.send(mockRes.body)
   } else {
-    res.status(400)
-    res.send({
-      success: false,
-      data: {
-        msg: "Bad Request"
-      }
-    })
+    generateErrRes(res, 400, "Bad Request")
   }
 }
 
+const generateErrRes = (res, status, msg) => {
+  res.status(status)
+    res.send({
+      success: false,
+      data: {
+        msg
+      }
+    })
+}
+
 module.exports = {
-  restCallback
+  apiCallback,
+  generateErrRes
 }
