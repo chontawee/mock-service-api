@@ -1,7 +1,7 @@
 {
   "name": "mock-service-api",
-  "version": "0.0.6",
-  "description": "",
+  "version": "0.0.7",
+  "description": "Mock api server for test your frontend web",
   "main": "index.js",
   "scripts": {
   },
@@ -11,6 +11,19 @@
     "type": "git",
     "url": "git+https://github.com/chontawee/mock-service-api.git"
   },
+  "contributors": [
+    {
+      "name": "Chontawee Wongpromrat",
+      "email": "chontawee.w@gmail.com"
+    }
+  ],
+  "keywords": [
+    "web",
+    "rest",
+    "restful",
+    "mock",
+    "api"
+  ],
   "devDependencies": {
     "body-parser": "^1.18.3"
   },

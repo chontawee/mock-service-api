@@ -61,3 +61,8 @@ const mockResponse = {
   body: {}
 }
 ```
+## REST Document
+You can see all route which you add to mock server and it's description by:
+```
+http://localhost:{port}/doc
+```
