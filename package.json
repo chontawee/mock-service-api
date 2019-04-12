@@ -9,7 +9,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chontawee/mock-api-server.git"
+    "url": "git+https://github.com/chontawee/mock-service-api.git"
   },
   "devDependencies": {
     "body-parser": "^1.18.3"
